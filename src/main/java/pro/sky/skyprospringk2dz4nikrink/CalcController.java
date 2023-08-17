@@ -3,7 +3,7 @@ package pro.sky.skyprospringk2dz4nikrink;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping
+@RequestMapping("/calculator")
 public class CalcController {
 
     private final CalcService calcService;
